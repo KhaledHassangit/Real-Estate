@@ -1,0 +1,27 @@
+.brands{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.custom{
+    padding: 15px;
+
+}
+.brands img{
+    width: 160px;
+    height: 80px;
+    margin: 30px auto   ;
+
+}
+/* 
+@media (max-width:767px) {
+    .custom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .custom img{
+        margin-bottom: 30px;
+    }
+} */

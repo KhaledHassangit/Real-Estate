@@ -1,0 +1,71 @@
+
+
+:root{
+    /* Colors */
+    --primaryColor:#3959d7;
+    --primaryColorLight: hsl(223,100%,97%);
+    --primaryColorDark: hsl(216,58%,28%);
+    --gradientLight:rgb(114,145,255);
+    --bgColor:hsl(0 ,0%,100%);
+    --formColor:hsl(20 ,42%,87%);
+    --whiteColor:#f5f5f9;
+    --blackColor:hsl(0,0%,18%);
+    --blackColorLight:hsl(223,3%,51%);
+    --shadowColor:hsl(219,63%,95%);
+    --inputColor:hsl(330,12%,97%);
+    --cardColor:hsl(300,3%,94%);
+    --orangColor:hsl(25,84%,53%);
+    --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    /* linear-gradient(40deg,rgb(114,145,255),rgb(42,73,198)); */
+
+    /* FontSize */
+    --biggestFontSize:2.5rem;
+    --h1FontSize:1.6rem;
+    --h2FontSize:1.25rem;
+    --h3FontSize:1rem;
+    --normalFontSize:0.938rem;
+    --smallFontSize:0.813;
+    --smallestFontSize:0.75rem;
+    --borderRadius:10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none!important;
+}
+
+.navbar-toggler{
+    background-color: #4066ff !important;
+}
+.navbar-expand .navbar-nav .nav-link{
+    padding-right: 0 !important;
+}
+
+.logo {
+    width: 120px;
+
+}
+
+a.nav-link {
+    margin-left: 10px;
+    color: #FFFFFFC7;
+    font-size: 16px;
+    transition: 0.5s ease all;
+}
+a.nav-link:hover{
+    color: white;
+}
+.navbar-button{
+    font-weight: 500;
+    padding: 6px 22px !important;
+    color: #fff !important;
+    background: var(--blue-gradient) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    transition: all .3s ease-in;
+    margin-left: 20px !important;
+}
+
+
+.navbar-button:hover{
+    /* scale: 1.1 !important; */
+}
+

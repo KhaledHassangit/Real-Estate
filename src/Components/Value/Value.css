@@ -1,0 +1,126 @@
+.value {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.imgbox{
+    width: 27rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(90, 38, 38, 0.12) ;
+    border: 8px solid 8px solid rgb(232 232 232 / 93%);
+}
+@media (max-width:991px) {
+    .imgbox{
+        width: 25rem;
+        height: 35rem;
+        margin: 0 auto;
+    }
+}
+@media (max-width:370px) {
+    .imgbox{
+        width: 23rem !important;
+        margin: 0 auto;
+
+    }
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+}
+
+.value .text{
+    margin-top: 30px;
+}
+
+.value .text h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: orange;
+}
+
+.value .text h2{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size:28px;
+    margin-top: 15px;
+}
+
+
+.value .text p{
+    color: #8c8b8b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.8;
+    width: 100%;
+    margin-left: 5px !important;
+    margin-bottom: 30px;
+}
+
+.acord{
+    border: 100px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    border: none;
+    margin-top: 2rem;
+    width: 100% !important;
+}
+
+
+.acord .item{
+    background: white !important;
+    border: 0.8px solid rgba(128,128,128,.143) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, .25) !important;
+}
+
+.head {
+    color: #1f3e72 !important;
+    padding: 1rem !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+    cursor: pointer !important;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.accordion-button {
+    background-color: white !important;
+    padding: 1rem !important;
+    width: 100% !important;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.item button{
+    background: white !important;
+    border:  none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #dad4d4 !important;
+    transition: all .2s ease-in !important;
+
+}
+
+button:focus{
+    border: none !important;
+    outline: none !important;
+}
+button:hover{
+    scale: .9 !important;
+}
+button.accordion-button{
+    background-color: white !important;
+    padding: 1rem !important;
+    width: 100% !important;
+    justify-content: space-between;
+    cursor: pointer;
+} 
+
+.accordion-button::after{
+    color: white !important;
+}
+

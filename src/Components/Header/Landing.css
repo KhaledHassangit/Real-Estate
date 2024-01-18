@@ -1,0 +1,143 @@
+
+.landing{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.imgDiv{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255,255,255,.12);
+    margin-left: auto !important;
+}
+
+
+@media (max-width:767px) {
+    .imgDiv{
+        margin-left: 25px !important;
+        width: 25rem;
+        height: 30rem;
+    
+    }
+}
+@media (max-width:991px) {
+    .imgDiv{
+        width: 24rem;
+        height: 35rem;
+        margin: 20px auto !important;
+    }
+}
+@media (max-width:370px) {
+    .imgDiv{
+        width: 23rem !important;
+    }
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.textdiv h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.textdiv h1::before{
+    content: "";
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    left: 245px;
+    top: -6px;
+    z-index: -1;
+}
+.textdiv span{
+    color: #777;
+    font-weight: 500;
+    
+}
+
+.searchBar{
+    background-color: var(--primaryColorLight);
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 5px solid rgba(203,202,202,0.16);
+    margin-top: 30px;
+    max-width: 100%;
+}
+@media (max-width:767px){
+    .searchBar{
+        width: 85%;
+    }
+}
+
+@media (max-width:991px) {
+    .searchBar{
+        width: 100%;
+    }
+}
+.searchBar .icon{
+    color: var(--primaryColor);
+    margin-right: 6px;
+    font-size: 24px;
+}
+.searchBar input{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.searchBar .btn{
+    /* padding: 0.8rem !important; */
+    color: white !important; 
+
+}
+
+.searchBar .btn:hover{
+    background-color: var(--primaryColor) !important;
+    color: var(--whiteColor) !important;
+}
+
+
+
+.numbers{
+    color: var(--whiteColor);
+    padding: 1.5rem 1.5rem;
+    gap: 0.5rem;
+    justify-content: left;
+}
+.singleNumber{
+    padding: 8px;
+}
+.singleNumber .parent{
+    display: flex;
+    font-weight: 500;
+    font-size: var(--h1FontSize);
+}
+.singleNumber blockquote{
+    color: var(--orangColor);
+    margin-bottom: 0;
+}
+.singleNumber small{
+    color: #8c8b8b;
+    opacity: 0.7;
+    max-width: 5px;
+    margin-top: 0;
+    font-size: .9rem
+}
